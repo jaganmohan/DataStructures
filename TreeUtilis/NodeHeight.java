@@ -16,6 +16,9 @@ public class NodeHeight {
 	public int getKey(){
 		return key;
 	}
+	public void setKey(int key){
+		this.key = key;
+	}
 	public NodeHeight getLeft(){
 		return left;
 	}
