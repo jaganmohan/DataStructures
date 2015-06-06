@@ -86,7 +86,7 @@ public class BinarySearchTree {
 			else if(node.getKey() > curr.getKey())
 				node.setLeft(curr.getLeft());
 			else
-				node.setRight(curr.getRight());
+				node.setRight(curr.getLeft());
 		}else if(curr.getLeft() == null && curr.getRight() != null){
 			if(curr == head){
 				head = curr.getRight();
